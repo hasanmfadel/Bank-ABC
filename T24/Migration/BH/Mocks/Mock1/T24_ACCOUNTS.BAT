@@ -10,3 +10,5 @@ sqlcmd -S 10.150.160.29 -d URBISDBLN -U REPORT -P %SQLCMD_PASS% -Q "SET NOCOUNT 
 PAUSE
 
 Added now
+
+Added new feature
