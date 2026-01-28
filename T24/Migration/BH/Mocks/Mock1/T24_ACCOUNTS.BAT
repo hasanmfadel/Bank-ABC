@@ -8,3 +8,5 @@ set "S_DATE=%datetime:~0,8%"
 sqlcmd -S 10.150.160.29 -d URBISDBLN -U REPORT -P %SQLCMD_PASS% -Q "SET NOCOUNT ON; SELECT * FROM URBIS.DATES"  -s "|" -o ".\Output\Accounts\T24.AAA.%S_DATE%.csv" -W
 
 PAUSE
+
+Added now
